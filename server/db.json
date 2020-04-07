@@ -1,0 +1,52 @@
+{
+  "orders": [
+    {
+      "car-rental": "full",
+      "accommodation": "hotel",
+      "features": [
+        "all-inclusive"
+      ],
+      "adults": "2",
+      "children": "1",
+      "name": "aaa",
+      "contact": "123456",
+      "start-date": "2020-05-03T09:05:14.000Z",
+      "totalCost": "$74,048",
+      "countryCode": "Pleasant trek in outstanding Togo",
+      "tripId": "5cc1d10181a30e85c8d9ad4a",
+      "id": 1
+    },
+    {
+      "car-rental": "luxury",
+      "accommodation": "house",
+      "features": [
+        "kitchen",
+        "pool",
+        "security"
+      ],
+      "adults": "2",
+      "children": 0,
+      "name": "bbb",
+      "contact": "uuuu",
+      "start-date": "2020-07-26T09:07:06.000Z",
+      "totalCost": "$147,066",
+      "countryCode": "Surprising jaunt in admirable United Arab Emirates",
+      "tripId": "5cc1d10107e2be6064ff9129",
+      "id": 2
+    },
+    {
+      "car-rental": "full",
+      "accommodation": "suite",
+      "features": [],
+      "adults": 1,
+      "children": 0,
+      "name": "",
+      "contact": "",
+      "start-date": "2020-04-14T09:19:17.000Z",
+      "totalCost": "$139,999",
+      "countryCode": "Marvelous travel in fantastic Timor-Leste",
+      "tripId": "5cc1d1014c75f672e46ef6d7",
+      "id": 3
+    }
+  ]
+}
