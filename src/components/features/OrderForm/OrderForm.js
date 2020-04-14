@@ -54,7 +54,10 @@ class OrderForm extends React.Component {
 
   render() {
     const { tripCost, options, setOrderOption, address, tripName, tripId, countryCode } = this.props;
-    console.log(pricing, options);
+    console.log('address ', address)
+ 
+    const { name, contact } = options
+ 
     return (
       <Grid>
         <Row>
@@ -65,7 +68,14 @@ class OrderForm extends React.Component {
           )}
           <Col xs={12}>
             <OrderSummary tripCost={tripCost} options={options} />
-            <Button onClick={() => sendOrder(options, tripCost, address, tripName, tripId, countryCode)}>Order now!</Button>
+            {
+              (name === "" || contact === "") ? (
+                <p>Please provide name and contact to submit order</p>
+              ) : (
+                <Button onClick={() => sendOrder(options, tripCost, address, tripName, tripId, countryCode)}>Order now!</Button>
+              )
+            }
+           
           </Col>
         </Row>
       </Grid>
